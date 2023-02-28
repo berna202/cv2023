@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualización CV </title>
+    <link rel="stylesheet" type="text/css" href="estilos_CSS/stylesIndex.css"/>
+    <link rel="icon" type="image/x-icon" href="C:\Users\BernaCorp_tec\Documents\Programación 4.0\Desarrollo Front-End\CV_04.ico">
+    
+    <meta namen="CV web"  content="web formato CV editable." /> 
+    <meta name="twitter:card" value="summary" >   
+    <meta property="og:title" content="CV web" />
+    <meta property="og:type" conctent="article" /> 
+    <meta property="og: url" content ="http:// " />
+    <meta property="og: image"  content="http:// " />
+    <meta property="og: description" content="CV formato web"/>
+</head>
+
+<body>
+     <div class="principal" class="container">
+      <h1>CV Actualización</h1> 
+       </div>     
+        <div class="row">
+            <div class="col-3 col-s-3 menu">
+                <ul>
+                    <li><img src="C:\Users\BernaCorp_tec\Documents\Programación 4.0\Desarrollo Front-End\fotoPerfil.jpg" alt="Foto de Perfil"></li>
+                    <li><button class="readMore_btn" id="presentahideText_btn"> Presentación</button> </li>                 
+                    <li><button class="readMore_btn" id="datosPHideText_btn">Datos Personales</button></li>
+                    <li><button class="readMore_btn" id="contactarHide_btn">Contactar</button></li> 
+                    <li><button class="readMore_btn" id="formacionHideText_btn">Formación</button></li>
+                    <li><button class="readMore_btn" id="empresasHideText_btn"> Empresas </button></li>     
+                    <li><button class="readMore_btn" id="fotoHide_btn" >Foto CV</button></li> 
+                </ul>
+            </div>
+      
+            <div class="col-6 col-s-9">
+                <h2>Seleccione la seccion que requiera actualizar o modificar.</h2>
+                <span class="ocultartxt" id="presentahideText"><!-- BOTON PRESENTACIÓN--> 
+                    <ul >           
+                        <h2 id="renombrarH" >Presentación</h2>  
+                    <form action="" method="post"> 
+                        <p><label for="txtPresentacion" >Ingrese carta de presentación, luego click en "Guardar" para confirmar.</label></p>
+                        <textarea id="txtPresentacion" name="txtPresentacion" rows="8" cols="50" >Esta es una breve carta de presentación profecional, 1_Texto de presentacion estatica en pantalla antes de hacer click en boton. Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.                
+                        </textarea>
+                        <br><br>
+                        <button class="readMore_btn" >Guardar </button>             
+                    </form>
+                    </ul> 
+                </span>
+
+                
+                <span class="ocultartxt"  id="contactarHideText" > <!-- BOTON CONTACATAR--> 
+                    <ul >
+                        <h2 id="renombrarH7"> </h2>  
+                        <p> Completrar datos personales para actualizar, luego click en "Guardar" para confirmar.  </p>         
+                        <form action="" method="post">
+
+                            <label for="cel:">Cel</label><br>
+                            <input type="tel" placeholder="15123456789" id="" name="cel"><br>
+                            <label for="e_mail:">E-mail</label><br>
+                            <input type="email" placeholder="correo@correo" id="" name="e_mail"><br>
+                            <label for="video">YouToBe</label><br>
+                            <input type="url" placeholder="YouToBe" id="" name="video"><br>  
+                            <label for="redTrabajo:">Linkedin</label><br>
+                            <input type="url" placeholder="Linkedin" id="" name="redTrabajo"><br>  
+                            <label for="upwork">UpWork</label><br>
+                            <input type="url" placeholder="UpWorl" id="" name="upwork"><br>                      
+                            <label for="ciudad:">Ciudad</label><br>
+                            <input type="text" placeholder="CABA" id="" name="ciudad"><br>                                              
+                            <label for="agenda">Días/Horarios:</label><br>
+                            <input type="text" placeholder="Luneas a Viernes" name="agenda"><br> 
+                            <label for="horarioAM">AM:</label><br>
+                            <input type="time" id="" name="horarioAM"><br>                    
+                            <label for="horarioPM">PM:</label><br>
+                            <input type="time" id="" name="horarioPM"><br><br> 
+
+                                        
+                            <button class="readMore_btn">Guardar </button>
+                        </form>  
+                        <br><br> 
+                    </ul>              
+                </span> 
+            
+                <span class="ocultartxt"  id="datosPHideText" > <!-- BOTON DATOS PERSONALES--> 
+                    <ul >
+                        <h2 id="renombrarH5"> </h2>  
+                        <p> Completrar datos personales para actualizar, luego click en "Guardar" para confirmar.  </p>         
+                        <form action="" method="post">
+                            <label for="nombre:">Nombre</label><br>
+                            <input type="text" placeholder="Jose Arturo" id="" name="nombre"><br> 
+                            <label for="apellido:">Apellido</label><br>
+                            <input type="text" placeholder="Pastore" id="" name="apellido"><br> 
+                            <label for="e_mail:">E-mail</label><br>
+                            <input type="email" placeholder="correo@correo" id="" name="e_mail"><br> 
+                            <label for="cel:">Cel</label><br>
+                            <input type="tel" placeholder="15123456789" id="" name="cel"><br>
+                            <label for="ciudad:">Ciudad</label><br>
+                            <input type="text" placeholder="CABA" id="" name="ciudad"><br> 
+                            <label for="profecion:">Profecion</label><br>
+                            <input type="text" placeholder="Contador"  id="" name="profecion"><br> 
+                            <label for="nacionalidad">Nacionalidad</label><br>
+                            <input type="text" placeholder="Argentino" id="" name="Nacionalidad"><br> 
+                            <label for="provincia">Provincia</label><br>
+                            <input type="text"  placeholder="Bs. As"id="" name="Provincia residencia"><br> 
+                            <label for="fnacimiento">Fecha nacimiento</label><br>
+                            <input type="date" id="" name="fnacimiento"><br><br> 
+               
+                            <button class="readMore_btn">Guardar </button>
+                        </form>  
+                        <br><br> 
+                    </ul>              
+                </span>  
+
+               <span class="ocultartxt" id="fotoHide"> <!-- BOTON FOTO CV-->                       
+                    <ul >
+                      <h2 id="renombrarH6"> </h2>  
+                       <p>Para actualizar foto del CV, click en "seleccionar archivo", luego click en "Guardar" para confirmar.</p> 
+                        <form action="" method="post">    
+                            <label for="fotop">Subir Foto:</label><br>
+                            <input type="file" id="" name="fotop"><br>    
+                            <br><br> 
+                            <button class="readMore_btn">Guardar </button>                     
+                        </form>  
+                        <br><br>                     
+                    </ul> 
+                </span> 
+
+                <span class="ocultartxt" id="formacionHideText"><!-- BOTON FORMACIÓN--> 
+                    <ul >  
+                     <h2 id="renombrarH4" > </h2>                  
+                     <p>Completar formación profecional, luego click en "Guardar" para confirmar.</p></p> 
+
+                        <form  action="" method="post">
+                         <label for="institucion">Institución educativa:</label><br>
+                         <input type="text" placeholder="UBA" id="" name="institucion"><br> 
+
+                         <label for="nivelEducativo">Seleccion nivel formación:</label><br>
+                            <select  id="nivelEducativo">
+                                <option >seleccione formación</option>
+                                    <option placeholder="seleccione formación" value="primaria">Primaria</option>
+                                         <option value="secundario"> Secundario</option>
+                                            <option value="tecnico"> Técnico</option>
+                                                <option value="terciario">Terciario</option>
+                                                     <option value="universitario">Universitario</option>
+                                                        <option value="licenciatura">Licenciatura</option>
+                                                            <option value="posgrado">Posgrado</option>
+                                                             <option value="ingenieria">Ingenieria</option>
+                                                                <option value="doctorado">Doctorado</option>                                                           
+                             </select><br>
+
+                         <label for="profecion">Titulación:</label><br>
+                         <input type="text" placeholder="Contador" id="" name="profecion"><br> 
+
+                         <label for="materias">Materias aprobadas:</label><br>
+                         <input type="number" placeholder="35" id="" name="materias"><br> 
+
+                          <label for="estado">Estado formación:</label><br>
+                             <select  id="estado">
+                                <option >Seleccione estado</option>
+                                    <option value="curzando">Curzando</option>
+                                        <option value="finalizado">Finalizado</option>
+                                            <option value="abandonado">Abandonado</option>                                                         
+                        
+                            </select><br> 
+                         <label for="inicioformacion">Inicio formación:</label><br>
+                         <input type="date" id="" name="inicioformacion"><br> 
+
+                         <label for="finformacion">Fin formación :</label><br>
+                         <input type="date" id="" name="finformacion"><br> 
+                         <br><br>
+
+                         <button class="readMore_btn" >Guardar </button>        
+                        </form>   
+                        <br><br> 
+                    </ul>
+                </span>              
+
+                <span class="ocultartxt" id="empresasHideText"><!-- BOTON EMPRESAS--> 
+                     <ul >  
+                       <h2 id="renombrarH3"> </h2>                  
+                       <p>Completar experiencias en empresas, luego click en "Guardar" para confirmar.</p>  
+                        <form  action="" method="">
+                         <label for="empresa">Empresa:</label><br>
+                         <input type="text" placeholder="Empresa/PYME" id="" name="empresa"><br> 
+
+                         <label for="rubro">Rubro:</label><br>
+                         <input type="text" placeholder="Logística" id="" name="rubro"><br> 
+
+                         <label for="areas">Áreas desempeñadas:</label><br>
+                         <input type="text" placeholder="Administración" id="" name="areas"><br> 
+
+                         <label for="cargo">Categoria:</label><br>
+                         <input type="text" placeholder="Director Contable" id="" name="cargo"><br> 
+
+                         <label for="contratacion">Inicio contratación:</label><br>
+                         <input type="date" id="" name="contratacion"><br> 
+
+                         <label for="fcontracion">Fin contratación:</label><br>
+                         <input type="date"  id="" name="fcontratacion"><br> 
+
+                         <label for="mExperiencia">Meses vinculación:</label><br>
+                         <input type="number" placeholder="12" id="" name="mExperiencia"><br> 
+
+                         <label for="contacto">Contactos:</label><br>
+                         <input type="text"  placeholder="Carlos Soria,15123456789" id="" name="contacto"><br> 
+
+                         <label for="referencia">Referencia:</label><br>
+                         <input type="email" placeholder="correo@correo.com" id="" name="referencia"><br>
+
+                         <label for="direccion">Dirección:</label><br>
+                         <input type="text"  placeholder="CABA, Irigoyen 123" id="" name="direccion"><br>
+
+                         <p><label for="txtTareasRealizadas" >Breve descripción de tareas y áreas desempeñadas en la empresa:</label></p>
+                         <textarea id="txtTareasRealizadas" name="txtTareasRealizadas" rows="8" cols="50" >Esta es una breve descripcion de las tareas y areas desempeñadas dentro de la empresa durante el plazo de contratación,1_Texto de presentacion estatica en pantalla antes de hacer click en boton. Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.          
+                         </textarea>
+                         <br><br>
+                         <button class="readMore_btn" >Guardar </button>               
+                        </form>       
+                    </ul>                                        
+                </span>
+            </div> 
+
+            <div class="col-3 col-s-12" >
+                <div class="aside">
+                    <h2><a href="http://www.youtobe.com">Youtobe</a></h2>
+                    <p>Breve video de presentacion profecional</p>
+                    <h2><a href="http://www.linkedin.com">linkedin</a></h2>
+                    <p>Link redsocial linkedin.</p>
+                    <h2><a href="http://www.upwork.com">UpWork</a></h2>
+                    <p>Link red social  Upwork.</p>
+                </div>
+            </div>
+        </div> 
+        <div class="footer">
+            <p><a href="http://www.linkedin.com"> |  linkedin</a> 2023 | v1.0.</p>
+        </div>
+        <script src="funciones_js/accionesAltaForm.js"></script>  
+</body>
+</html>
+        
