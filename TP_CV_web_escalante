@@ -1,0 +1,141 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Web</title>
+    <link rel="stylesheet" type="text/css" href="estilos_CSS/stylesIndex.css"/>
+    <link rel="icon" type="image/x-icon" href="C:\Users\BernaCorp_tec\Documents\Programación 4.0\Desarrollo Front-End\CV_04.ico"> 
+
+    <meta namen="CV web"  content="web formato CV editable." /> 
+    <meta name="twitter:card" value="summary" >   
+    <meta property="og:title" content="CV web" />
+    <meta property="og:type" conctent="article" /> 
+    <meta property="og: url" content ="http:// " />
+    <meta property="og: image"  content="http:// " />
+    <meta property="og: description" content="CV formato web"/>
+</head>
+<body>
+    <div class="principal" class="container">
+      <h1>CV Jose Arturo Pastore 2023</h1> 
+    </div> 
+
+   <div class="row">
+           <div class="col-3 col-s-3 menu">
+              <ul>
+                <li><img src="C:\Users\BernaCorp_tec\Documents\Programación 4.0\Desarrollo Front-End\fotoPerfil.jpg" alt="Foto de Perfil"> </li>                             
+                <li><button class="readMore_btn" id="datosPHideText_btn">Datos Personales</button></li>
+                <li><button class="readMore_btn" id="hideText_btn"> Contactar </button> </li>
+                <li><button class="readMore_btn" id="formacionHideText_btn">Formación</button></li>
+                <li><button class="readMore_btn" id="empresasHideText_btn"> Empresas </button></li>      
+                <li> <a button class="readMore_btn" id="actualizarCVHideText_btn"  href="C:\Users\BernaCorp_tec\Documents\Programación 4.0\TP de CV\altaForm.html">Actualizar CV </a>  </li>        
+               </ul>
+            </div>    
+
+     <div class="col-6 col-s-9">
+              <ul >
+                <h2 id="renombrarH"> Presentación</h2>  
+                  <p> 
+                  Texto de presentacion estatica en pantalla antes de hacer click en boton.
+                  Chania is the capital of the Chania region on the island of Crete. The city 
+                  can be divided in two parts, the old town and the modern city.   
+                  </p><br>
+              </ul>  
+
+              <span class="ocultartxt"  id="datosPHideText" >
+                <ul >  
+                  <h2 id="renombrarH5" > </h2>                  
+                    <p>Datos personales generales.</p>          
+                    <li>  Nombre: Jose Arturo</li>                        
+                    <li>  Apellido: Pastore </li> 
+                    <li>  E-mail: josearturo@correo</li>                   
+                    <li>  Cal: 1512345678</li>                                             
+                    <li>  Ciudad: CABA</li>                        
+                    <li>  Profeción: Contador</li>   
+                    <li>  País: Argenino</li>
+                    <li>  Provincia: Bs. As.</li>
+                    <li>  F. Nacimiento: 02/07/1975</li>
+                    <br> 
+                  </ul>                
+              </span> 
+
+             <span class="ocultartxt" id="hideText"> <!--dentro de span info a ocultar-->                         
+                <ul >
+                  <h2 id="renombrarH2"> </h2>  
+                    <p> 
+                    Texto de presentacion estatica en pantalla antes de hacer click en boton.
+                    Chania is the capital of the Chania region on the island of Crete. The city 
+                    can be divided in two parts, the old town and the modern city.   
+                    </p>         
+                    <li> Jose Arturo Pastore</li>                        
+                    <li> Contador </li>                       
+                    <li> 1115236456</li>                       
+                    <li> correo@correo.com</li>   
+                    <li> Bs. As </li>                      
+                    <li> Argentino</li>                        
+                    <li> Lunea a Viernes de (9am a 18pm) hs. </li>
+                    <br> 
+                </ul> 
+              </span> 
+
+             <span class="ocultartxt" id="formacionHideText">
+                <ul >  
+                  <h2 id="renombrarH4"> </h2>                  
+                  <p>En esta seccion se muestra e informa de las instituciones educativas y academicas.</p>                   
+                  <li>  Institución educativa: UBA</li>                        
+                  <li>  Nivel formación: Universitario </li>                    
+                  <li>  Titulación: Comtador</li> 
+                  <li>  Materia aprobadas: 54</li> 
+                  <li>  Estado carrera: Finalizado</li> 
+                  <li>  Inicio formación: 03/08/2000</li> 
+                  <li>  Fin formación: 04/20/2006</li> 
+                  <br>
+                </ul>
+              </span>  
+
+               <span class="ocultartxt" id="empresasHideText">
+                  <ul>  
+                     <h2 id="renombrarH3"> </h2>                  
+                     <p>Esta es una breve descripción de la empresa y las diferentes tareas y areas ocupadas.</p>                       
+                     <li>  Empresa: Tango Gestión</li>                        
+                     <li>  Rubro: logística </li>                    
+                     <li>  Área desempeñadas: Contaduria Impositiva</li>
+                     <li>  Categoria: Administrativo</li>
+                     <li>  Inicio Contratación: 06/01/2010</li> 
+                     <li>  Fin Contratación: 09/05/2018</li>
+                     <li>  Meses vinculacioón: 96</li>
+                     <li>  Contacto: Gerente General, cel.151234567</li>
+                     <li>  Referencia: RRHH.gestion@correo</li>
+                     <li>  Dirección: Bs. As.,CABA, Yrigollen 1214</li>
+                   
+                     <p>Esta es una breve descripcion de las tareas y areas 
+                      desempeñadas dentro de la empresa durante el plazo de
+                      contratación,1_Texto de presentacion estatica en pantalla
+                      antes de hacer click en boton. Chania is the capital of the 
+                      Chania region on the island of Crete. The city can be divided 
+                      in two parts, the old town and the modern city.
+                     </p>                    
+                   </ul> 
+                 
+                </span>
+       </div> 
+ 
+         <div class="col-3 col-s-12" >
+           <div class="aside">
+              <h2><a href="http://www.youtobe.com">Youtobe</a></h2>
+              <p>Breve video de presentacion profecional</p>
+              <h2><a href="http://www.linkedin.com">linkedin</a></h2>
+              <p>Link redsocial linkedin.</p>
+              <h2><a href="http://www.upwork.com">UpWork</a></h2>
+              <p>Link red social  Upwork.</p>
+            </div>
+         </div>
+   </div> 
+
+    <div class="footer">
+      <p><p><a href="http://www.linkedin.com"> |  linkedin</a> 2023 | v1.0.</p>.</p>
+    </div>  
+    <script src="funciones_js/accionesIndex.js"></script>    
+</body>
+</html>
